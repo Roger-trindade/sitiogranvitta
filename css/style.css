@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.banner {
+    background-image: url(../css/Foto-banner.jpg);
+    padding: 90px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo p {
+    color: #fff;
+    font-size: 50px;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #0a0101;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-image: url(../css1/Foto-32.jpg);
+    background-size: cover;
+}
+
+.texto {
+    background-image: url(../css/Foto-34.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.texto sobre {
+    font-size: 300px;
+}
+
+.foto {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.foto img {
+    cursor: pointer;
+    width: 170px;
+    margin: 5px;
+    margin-right: 0px;
+
+}
+
+.foto h2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #0a0101;
+}
+
+.foto img:hover {
+    opacity: 1;
+}
+
+.conteiner {
+    position: relative;
+    display: none;
+    width: 60%;
+    margin: auto;
+
+}
+
+.conteiner img {
+    width: 100%;
+}
+
+.btnfechar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #070707;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* CSS para o rodapé */
+footer {
+    /* Cor de fundo preto */
+    color: #fff;
+    /* Cor do texto branco */
+    text-align: center;
+    /* Alinhamento do texto no centro */
+    padding: 2px;
+    /* Espaçamento interno */
+    bottom: 0;
+}
+
+.wat {
+    text-align: left;
+    /* Alinhamento do texto no centro */
+    padding: 20px;
+    /* Espaçamento interno */
+    position: fixed;
+    /* Rodapé fixo na parte inferior */
+    bottom: 0;
+    width: 100%;
+}
